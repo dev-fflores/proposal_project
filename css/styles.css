@@ -1,0 +1,70 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url("../src/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Protest Riot', sans-serif;
+}
+
+.gif{
+    height: 220px;
+    width: 220px;
+}
+
+
+.main{
+    background: linear-gradient(rgba(195, 195, 196, 0.55), rgba(195, 195, 196,0.55));
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 20px;
+    min-height: 300px;
+    min-width: 680px;
+    box-shadow: 8px 5px 30px black;
+}
+
+h1{
+    font-size: 50px;
+    color: black;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+}
+
+#yesButton, #noButton{
+    width: 140px;
+    height: 50px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 12px;
+    color: aliceblue;
+}
+
+#yesButton{
+    background-color: rgb(32, 102, 15);
+}
+
+#noButton{
+    background-color: rgb(15, 96, 102);
+}
+
+button {
+    width: 140px;
+    height: 50px;
+}
+
+
+#yesButton:hover{
+    background-color: rgb(119, 189, 101);
+    color: black;
+}
